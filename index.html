@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html >
+<head>
+   
+    <title>Mi primera web</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 500px;">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Colchoneta</td>
+                <td>Gratis</td>
+            </tr>
+            <tr>
+                <td>Macuerna</td>
+                <td>$1550</td>
+            </tr>
+            <tr>
+                <td>Cinta caminadora</td>
+                <td>$25799</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th></th>
+            <th>Total: $27349</th>
+        </tfoot>
+    </table>
+
+    <!--ul es lista no ordenada, aparecen con un punto en negro-->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+
+    </ul>
+    <ol>
+        <!--ol es lista o ordenada-->
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ol>
+    <ol>
+        <li value="25">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-alpha">sub elemento 1</li>
+                <li style="list-style-type: lower-alpha">sub elemento 2</li>
+                <li style="list-style-type: lower-alpha">sub elemento 3</li>
+            </ol>
+        </li>
+    </ol>
+
+
+
+
+
+
+    <form action="/formulario" method="POST">
+        <label for="nombre">Nombre</label> 
+        <input value="Nicolás" type="text" id="nombre" name="nombre" placeholder="Nombre"/>
+        <br><br>
+        <label for="apellido">Apellido</label> 
+        <input value="Sánchez" type="text" id="apellido" name="apellido" placeholder="Apellido"/>
+        <br><br>
+        <label for="comentario">Comentario</label>
+        <textarea cols="20" rows="10" id="comentario" placeholder="Ingrese comentario" name="comentario">aca van los valores por defecto</textarea>
+        <br>
+        <button type="button">Tipo boton </button>
+        <button type="reset">Tipo reset </button>
+        <button type="submit">Tipo submit </button>
+        <br>
+        <label for="email">Mail</label>
+        <input type="email" id="email" name="email" placeholder="Email"/>
+        <br><br>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Password"/>
+        <br><br>
+        <label for="archivo">Adjuntar Archivo</label>
+        <input type="file" id="file=" name="file" placeholder="Adjuntar Archivo"/>
+        <br><br>
+        <input type="submit" />
+    </form>
+        <br><br>
+        <h1>Mi primer heading</h1>
+        <h2>Mi segundo heading</h2>
+        <h3>Mi tercer heading</h3>
+        <h4>Mi cuarto heading</h4>
+        <h5>Mi quinto heading</h5>
+        <h6>Emilia y EVa</h6>
+        <p>El club Ferro Carril Oeste es el más grande</p>
+        <p>Giovanni sos muy amargo, pero muy amargo</p>
+        <hr>
+        <h2>Velez el mas amargo</h2>
+        <p>A franco le gusta <span style="color:blueviolet">la bondiola</span> por la cola. Esto es un
+            chiste <br>
+             para probar las <br><br> 
+             etiquetas span!
+        </p>
+        <!-- este texto sirve para comentarios y no aparece
+             en la pagina web-->
+
+            <a href="https://www.google.com.ar">Ir a google</a> <br>
+            <a target="_blank" href="https://www.ferrocarriloeste.org.ar">Ir a Ferro</a> <br>
+            <img src="https://media-cdn.tripadvisor.com/media/photo-s/03/85/0c/c7/parrilla-tour-buenos.jpg" /> <br>
+            <img src="img/Flybondi equipaje.jpg" width="300" height="200" />
+            
+
+
+</body>
+</html>
